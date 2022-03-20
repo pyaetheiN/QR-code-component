@@ -1,0 +1,74 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --lightgray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--lightgray);
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  background: var(--white);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  row-gap: 0.3rem;
+  text-align: center;
+  padding: 15px 10px;
+  border-radius: 20px;
+}
+
+.box-img img {
+  max-width: 260px;
+  border-radius: 8px;
+}
+
+.box-desc {
+  max-width: 270px;
+  padding: 0.5em;
+}
+
+.box-desc h1 {
+  font-size: 1.5em;
+  margin-bottom: 1rem;
+  color: var(--dark-blue);
+  font-weight: 700;
+}
+
+.box-desc p {
+  font-size: 0.975em;
+  color: var(--grayish-blue);
+  font-weight: 400;
+}
+/*# sourceMappingURL=style.css.map */
